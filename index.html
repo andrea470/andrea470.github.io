@@ -1,89 +1,101 @@
 <html>
-   <head>
-      <title>MySite</title>
-      <style>
-         h1 {
-			text-align:center;
-         }
-         .border {
-			border: 1px solid black;
-         }
-         table {
-			width: 100%;
-			color: black;
-         }
-         img {
-			width: 50%;
-			heigth: auto;
-         }
-		 .caso{
-		 width:50%;
-		 height:300px;
-		 border-radius: 50%;
-		 }
-        body{
-				background-color: gray;
-				
-			}	
-		.icona {
-			width:5%;
-			]
-
-      </style>
-   </head>
-   <body>
-      <header>
-         <h1 >MySite</h1>
-      </header>
-      <main>
-	  
-		<table>
-			<tbody>
-				<tr>
-					<td>
-					<center>
-						<img class= "caso"
-						src="fotomia.jpg"
-							alt="Andrea Carriero"
-							title="Andrea Carriero" />
-							</center>
-					</td>
-					<td>
-						<p>
-							Ciao mi chiamo Andrea ho 17 anni, frequento il 4°anno di superiore in ambito informatico.<br>
-							Pratico palestra è ci vado 3/4 volte a settimana,l'ho ricominciata da un mese e mi sta piacendo molto.<br>
-							Un altra mia passione è la musica l'ascolto la maggior parte della mia giornata, mi piace molto il genere rap ed uno dei miei cantanti preferiti è Gemitaiz.
-						</p>
-						<a href="https://www.instagram.com/andrea.carrieroo/">
-							<img class = "icona"src="https://cdn-icons-png.flaticon.com/512/25/25425.png">
-						</a>
-						<a href="https://github.com/andrea470">
-							<img class = "icona"src="https://github.blog/wp-content/uploads/2024/07/github-logo.png">
-						</a>
-					</td>
-						
-			</tbody>
-		</table>
-         <img src="https://images.genius.com/9c5492bb5f077cce334db0f4bf24ff16.797x795x1.jpg" alt="Gemitaiz" title="Gemitaiz" />
-         <table class="border">
-				<p>
-							Questo è uno degl'album più ascoltati di Gemitaiz, anche uno dei miei preferiti, pubblicato nel 2016.
-							
-						</p>
-            <thead>
-               
-              
-            </thead>
-            <tbody>
-              
-              
-             
-           
-            </tbody>
-         </table>
-      </main>
-      <footer>
-         <p>&copy; Andrea Carriero</p>
-      </footer>
-   </body>
+<head>
+    <title>Sito Personale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.5em;
+            text-decoration: none;
+        }          
+        .home {
+            background-color: #eee;
+            text-align: center;
+        }
+        .portfolio {
+            display: flex;
+            gap: 1em;         
+            justify-content: center;
+        }
+        .portfolio-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1em;
+            width: 200px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+         
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Il Mio Sito Personale</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#chi-sono">Chi Sono</a>
+        <a href="#portfolio">Passioni</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+    <section id="home" class="home">
+        <h2>Benvenuto!</h2>
+        <p>Questo è il mio sito personale. Scopri di più su di me, sulle miei passioni e su come contattarmi.</p>
+    </section>
+    <section id="chi-sono">
+        <h2>Chi Sono</h2>
+		<center>
+			<p>Ciao mi chiamo Andrea ho 17 anni, frequento il 4°anno di superiore in ambito informatico.<br>
+							Pratico palestra è ci vado 3/4 volte a settimana,l'ho ricominciata da qualche mese e mi sta piacendo molto.<br>
+							Un altra mia passione è la musica l'ascolto la maggior parte della mia giornata, mi piace molto il genere rap ed uno dei miei cantanti preferiti è Gemitaiz.</p>
+		</center>
+	</section>
+    <section id="portfolio">
+        <h2>Passioni</h2>
+        <div class="portfolio">
+            <div class="portfolio-item">
+                <h3>Passione 1</h3>
+                <p>La mia prima passione è per la musica dove mi permette di esprimere emozioni, di connettersi con gli altri e di evadere dalla realtà. Che si tratta di cantare o semplicemente ascoltare, la musica ha il potere di trasportare in un altro mondo, nutrendo l'anima e arricchendo la vita con bellezza e significato.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Passione 2</h3>
+                <p>La mia seconda passione è la palestra dove allenarsi regolarmente mi offre soddisfazione, sfogo e una sensazione di crescita continua, trasformando ogni sensazione in un piccolo traguardo verso una versione migliore di sé stessi.</p>
+            </div>
+            <!-- Aggiungi più passioni qui -->
+        </div>
+    </section>
+    <section id="contatti">
+        <h2>Contatti</h2>
+        <p>Email: andreadonato.carriero@gmail.com</p>
+        <p>LinkedIn: <a href="https://github.com/andrea470">github.com</a></p>
+        <p>Instagram: <a href="https://www.instagram.com/andrea.carrieroo/">andrea.carrieroo</p>
+			
+    </section>
+    <footer>
+        <p>&copy; Andrea Carriero</p>
+    </footer>
+</body>
 </html>
